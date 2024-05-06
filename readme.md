@@ -8,23 +8,25 @@ Imagine this... You post a fan video of DannoCal, Glitch, SMG4, Game Theory, etc
 
 Well, you can now kiss goodbye to these duncefucks with UTTK, or UTubeTrollKiller by NXX99. It fetches channel IDs in a console log so you can copy and paste them into youtube studio's blacklist feature!
 
+###### Note: This is a dumbed down version of a script by Switch
+
 __Requirements__
 
 * A PC
 * NodeJS
-* (YoutubeI)["https://www.npmjs.com/package/youtubei"]
+* [YoutubeI]("https://www.npmjs.com/package/youtubei")
 
 Don't have these? Here's some steps for various OSes
 
 __Windows Installation__
 
-First, open Powershell and install ("scoop")["https://scoop.sh/"]
+First, open Powershell and install ["scoop"]("https://scoop.sh/")
 
 Second, in a Powershell or CMD window, run `scoop install nodejs`
 
 __MacOS installation__
 
-First, download and run the package file from ("the official NodeJS download page")["https://nodejs.org/en/download"]
+First, download and run the package file from ["the official NodeJS download page"]("https://nodejs.org/en/download")
 
 __Linux install__
 
