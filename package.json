@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^9.9.0",
+    "googleapis": "^136.0.0",
+    "readline": "^1.3.0",
+    "usetube": "^2.2.7",
+    "youtubei": "^1.4.0"
+  }
+}
