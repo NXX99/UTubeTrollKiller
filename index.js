@@ -16,6 +16,6 @@ const run = async () => {
     channels.next()
     console.log(`https://www.youtube.com/channel/${channels.items[inc].id}, `)
   }
-  setInterval(increment, 20)
+  setInterval(increment, 100)
 };
 run()
