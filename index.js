@@ -14,8 +14,8 @@ const run = async () => {
   function increment(){
     inc++
     channels.next()
-    console.log(channels.items[inc].id + ", ")
+    console.log(`https://www.youtube.com/channel/${channels.items[inc].id}, `)
   }
-  setInterval(increment, 200)
+  setInterval(increment, 20)
 };
 run()
