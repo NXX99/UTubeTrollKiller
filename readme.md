@@ -26,7 +26,7 @@ Second, in a Powershell or CMD window, run `scoop install nodejs`
 
 __MacOS installation__
 
-First, download and run the package file from ["the official NodeJS download page"](https://nodejs.org/en/download)
+First, download and run the package file from [the official NodeJS download page](https://nodejs.org/en/download)
 
 __Linux installation__
 
