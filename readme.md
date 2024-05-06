@@ -28,7 +28,7 @@ __MacOS installation__
 
 First, download and run the package file from ["the official NodeJS download page"]("https://nodejs.org/en/download")
 
-__Linux install__
+__Linux installation__
 
 On Debian/Debian based distros (Ubuntu and its flavors, Pop!_os, KDE neon, Q4OS, Linux mint, so on and so forth,) run `apt-get install nodejs`. If you're not root, put sudo before the command.
 
