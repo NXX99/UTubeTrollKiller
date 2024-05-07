@@ -13,7 +13,7 @@ Well, you can now kiss goodbye to these duncefucks with UTTK, or UTubeTrollKille
 __Requirements__
 
 * A PC
-* NodeJS
+* [NodeJS](https://nodejs.org)
 * [YoutubeI](https://www.npmjs.com/package/youtubei)
 
 Don't have these? Here's some steps for various OSes
@@ -40,4 +40,4 @@ To verify, run `node .help` to see if you installed NodeJS.
 
 After installing and verifying, run `npm install youtubei`.
 
-Afterwards, clone this repository and CD into it, and run `node index.js`, and you should be seeing a slew of channel IDs separated by commas and spaces. Let it run for about 30 minutes or an hour before stopping, and copy every channel ID, go into youtube studio, and paste them under hidden users.
+Afterwards, clone this repository and CD into it, and run `node index.js`, and you should be seeing a slew of channel IDs separated by commas and spaces. Let it run for about 5 to 10 minutes before stopping, copy every channel ID, go into youtube studio, and paste them under hidden users.
