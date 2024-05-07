@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
+    "terminal-kit": "^3.1.1",
     "youtubei": "^1.4.0"
   }
 }

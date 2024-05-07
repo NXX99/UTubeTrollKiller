@@ -1,5 +1,7 @@
 # UTubeTrollKiller
 
+![UTubeTrollKiller Logo](uttklogo.png)
+
 ### Say goodbye to the UTTP
 
 Imagine this... You post a fan video of DannoCal, Glitch, SMG4, Game Theory, etc., and then you see a whole load of this being spammed by UTTP crackheads:
@@ -41,3 +43,10 @@ To verify, run `node .help` to see if you installed NodeJS.
 After installing and verifying, run `npm install youtubei`.
 
 Afterwards, clone this repository and CD into it, and run `node index.js`, and you should be seeing a slew of channel IDs separated by commas and spaces. Let it run for about 5 to 10 minutes before stopping, copy every channel ID, go into youtube studio, and paste them under hidden users.
+
+## Changelog
+
+
+|Version|Update Note|
+--
+|May 7th, 2024|Now saves the collected UTTP member name and ID lists to separate text files instead of needing to copy them directly from the terminal window.|
