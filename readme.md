@@ -1,6 +1,6 @@
 # UTubeTrollKiller
 
-![UTubeTrollKiller Logo](uttklogo.png)
+![UTubeTrollKiller Logo](images/uttklogo.png)
 
 ### Say goodbye to the UTTP
 
@@ -12,13 +12,16 @@ Well, you can now kiss goodbye to these duncefucks with UTTK, or UTubeTrollKille
 
 ###### Note: This is a dumbed down version of a script by Switch
 
-__Requirements__
 
-* A PC
+## Using the script
+
+### Requirements
+
+* A PC or Mac
 * [NodeJS](https://nodejs.org)
 * [YoutubeI](https://www.npmjs.com/package/youtubei)
 
-Don't have these? Here's some steps for various OSes
+Don't have these? Assuming you have a PC or Mac, here's some steps for various OSes
 
 __Windows Installation__
 
@@ -42,7 +45,29 @@ To verify, run `node .help` to see if you installed NodeJS.
 
 After installing and verifying, run `npm install youtubei`.
 
-Afterwards, clone this repository and CD into it, and run `node index.js`, and you should be seeing a slew of channel IDs separated by commas and spaces. Let it run for about 5 to 10 minutes before stopping, copy every channel ID, go into youtube studio, and paste them under hidden users.
+### Step 1
+
+Clone this repository and CD into it, and run `node index.js`, and you should be seeing a slew of channel IDs separated by commas and spaces. It's best to let it run for a few minutes before stopping.
+
+### Step 2
+
+Kill the script using the CTRL + C or ALT + Q Keyboard combinations, and open `idlist.txt`. You should see something similar to this:
+
+![Sample screenshot of an idlist.txt file](images/steps/01.png)
+
+Copy the file's contents.
+
+### Step 3
+
+Go to your [YouTube Studio](https://studio.youtube.com), go to settings in the bottom right corner, and go to Community. Scroll down until you see a text box like this:
+
+![Screenshot of an empty hidden users list box](images/steps/02.png)
+
+Click that and paste. After pasting, save. Double check by going back. After returning to the list, you should see something like this:
+
+![Sample screenshot of a full hidden channels list](images/steps/03.png)
+
+If you see something like that, it was a success. No further action is needed.
 
 ## Changelog
 
