@@ -73,5 +73,6 @@ If you see something like that, it was a success. No further action is needed.
 
 
 |Version|Update Note|
---
+|:-----:|:----------|
+|May 8th, 2024|Made it stop blocking the AUTTP and gave an actual tutorial.|
 |May 7th, 2024|Now saves the collected UTTP member name and ID lists to separate text files instead of needing to copy them directly from the terminal window.|
