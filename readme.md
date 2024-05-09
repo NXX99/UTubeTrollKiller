@@ -10,7 +10,7 @@ Imagine this... You post a fan video of DannoCal, Glitch, SMG4, Game Theory, etc
 
 Well, you can now kiss goodbye to these duncefucks with UTTK, or UTubeTrollKiller by NXX99. It fetches channel IDs in a console log so you can copy and paste them into youtube studio's blacklist feature!
 
-###### Note: This is a dumbed down version of a script by Switch
+> **NOTE:** This is a dumbed down version of a script by Switch
 
 
 ## Using the script
@@ -69,10 +69,3 @@ Click that and paste. After pasting, save. Double check by going back. After ret
 
 If you see something like that, it was a success. No further action is needed.
 
-## Changelog
-
-
-|Version|Update Note|
-|:-----:|:----------|
-|May 8th, 2024|Made it stop blocking the AUTTP and gave an actual tutorial.|
-|May 7th, 2024|Now saves the collected UTTP member name and ID lists to separate text files instead of needing to copy them directly from the terminal window.|
