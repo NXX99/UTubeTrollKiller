@@ -37,7 +37,7 @@ Download and install the package from [the official NodeJS download page](https:
 
 On Debian/Debian based distros (Ubuntu and its flavors, Pop!_os, KDE neon, Q4OS, Linux mint, so on and so forth,) run `apt-get install nodejs`. If you're not root, put sudo before the command.
 
-On RHEL-Based distros (Red Hat, Fedora, CentOS, OpenSUSE, etc.,) run `rpm install nodejs` (`sudo zypper install nodejs for OpenSUSE`,) of course, as sudo if you're not root.
+On RHEL-Based distros (Red Hat, Fedora, CentOS, OpenSUSE, etc.,) run `rpm install nodejs` (`sudo zypper install nodejs` for OpenSUSE,) of course, as sudo if you're not root.
 
 For any other distro (arch, gentoo, or Linux From Scratch,) or other UNIX-Based OSes (Such as BSD distrobutions like FreeBSD and OpenBSD, Solaris,) look up a tutorial on how to install NodeJS.
 
