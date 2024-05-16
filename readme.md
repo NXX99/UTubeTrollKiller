@@ -15,7 +15,7 @@ Well, you can now kiss goodbye to these duncefucks with UTTK, or UTubeTrollKille
 
 ## Using the script
 
-### Requirements
+## Requirements
 
 * A PC or Mac
 * [NodeJS](https://nodejs.org)
@@ -23,17 +23,17 @@ Well, you can now kiss goodbye to these duncefucks with UTTK, or UTubeTrollKille
 
 Don't have these? Assuming you have a PC or Mac, here's some steps for various OSes
 
-__Windows Installation__
+## Windows Installation
 
 First, open Powershell and install [scoop](https://scoop.sh/)
 
 Second, in a Powershell or CMD window, run `scoop install nodejs`
 
-__MacOS installation__
+## MacOS installation
 
-First, download and run the package file from [the official NodeJS download page](https://nodejs.org/en/download)
+Download and install the package from [the official NodeJS download page](https://nodejs.org/en/download)
 
-__Linux installation__
+## Linux installation
 
 On Debian/Debian based distros (Ubuntu and its flavors, Pop!_os, KDE neon, Q4OS, Linux mint, so on and so forth,) run `apt-get install nodejs`. If you're not root, put sudo before the command.
 
@@ -41,15 +41,19 @@ On RHEL-Based distros (Red Hat, Fedora, CentOS, OpenSUSE, etc.,) run `rpm instal
 
 For any other distro (arch, gentoo, or Linux From Scratch,) or other UNIX-Based OSes (Such as BSD distrobutions like FreeBSD and OpenBSD, Solaris,) look up a tutorial on how to install NodeJS.
 
-To verify, run `node .help` to see if you installed NodeJS.
+> ### After installation is finished (no matter what OS you use,) run `node .help`, and install the following dependencies with `npm install x`, where `x` is the dependency:
 
-After installing and verifying, run `npm install youtubei`.
+* `youtubei`
+* `fs`
+* `terminal-kit`
 
-### Step 1
+
+
+## Step 1
 
 Clone this repository and CD into it, and run `node index.js`, and you should be seeing a slew of channel IDs separated by commas and spaces. It's best to let it run for a few minutes before stopping.
 
-### Step 2
+## Step 2
 
 Kill the script using the CTRL + C or ALT + Q Keyboard combinations, and open `idlist.txt`. You should see something similar to this:
 
@@ -57,7 +61,7 @@ Kill the script using the CTRL + C or ALT + Q Keyboard combinations, and open `i
 
 Copy the file's contents.
 
-### Step 3
+## Step 3
 
 Go to your [YouTube Studio](https://studio.youtube.com), go to settings in the bottom right corner, and go to Community. Scroll down until you see a text box like this:
 
