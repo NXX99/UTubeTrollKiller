@@ -20,7 +20,7 @@ Well, you can now kiss goodbye to these duncefucks with UTTK, or UTubeTrollKille
 * A PC or Mac
 * [NodeJS](https://nodejs.org)
 * [YoutubeI](https://www.npmjs.com/package/youtubei)
-
+* FS
 Don't have these? Assuming you have a PC or Mac, here's some steps for various OSes
 
 ## Windows Installation
@@ -37,9 +37,11 @@ Download and install the package from [the official NodeJS download page](https:
 
 On Debian/Debian based distros (Ubuntu and its flavors, Pop!_os, KDE neon, Q4OS, Linux mint, so on and so forth,) run `apt-get install nodejs`. If you're not root, put sudo before the command.
 
-On RHEL-Based distros (Red Hat, Fedora, CentOS, OpenSUSE, etc.,) run `rpm install nodejs` (`sudo zypper install nodejs` for OpenSUSE,) of course, as sudo if you're not root.
+On RHEL-Based distros (Red Hat, Fedora, CentOS, OpenSUSE, etc.,) run `sudo dnf install nodejs` (`sudo zypper install nodejs` for OpenSUSE)
 
-For any other distro (arch, gentoo, or Linux From Scratch,) or other UNIX-Based OSes (Such as BSD distrobutions like FreeBSD and OpenBSD, Solaris,) look up a tutorial on how to install NodeJS.
+On Arch and Arch-based distros (Manjaro, EndeavorOS, Crystal Linux, Artix, etc.) Run `sudo pacman -S nodejs`
+
+For any other distro (gentoo or Linux From Scratch, for example) or other UNIX-Based OSes (Such as BSD distrobutions like FreeBSD and OpenBSD, Solaris which is based on System V, etc.,) look up a tutorial on how to install NodeJS.
 
 > ### After installation is finished (no matter what OS you use,) run `node .help`, and install the following dependencies with `npm install x`, where `x` is the dependency:
 
@@ -51,15 +53,17 @@ For any other distro (arch, gentoo, or Linux From Scratch,) or other UNIX-Based 
 
 ## Step 1
 
-Clone this repository and CD into it, and run `node index.js`, and you should be seeing a slew of channel IDs separated by commas and spaces. It's best to let it run for a few minutes before stopping.
+Clone this repository and CD into it, and run `node index.js`, fill out the prompts, and you should be seeing a screen showing channel information. It's best to let it run for a few minutes before stopping.
 
 ## Step 2
 
-Kill the script using the CTRL + C or ALT + Q Keyboard combinations, and open `idlist.txt`. You should see something similar to this:
+Kill the script using the CTRL + C or ALT + Q Keyboard combinations, and open your newly made `idlist.txt`, which, for example, if you put YFGA in the first prompt, the filenames would start with YFGA. You should see something similar to this:
 
 ![Sample screenshot of an idlist.txt file](images/steps/01.png)
 
 Copy the file's contents.
+
+> ###Note: The other two files, which end in namelist.txt and cmblist.txt are generated to share with people online.  
 
 ## Step 3
 
