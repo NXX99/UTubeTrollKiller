@@ -58,14 +58,13 @@ Clone this repository and CD into it, and run `node index.js`, fill out the prom
 
 ## Step 2
 
-Kill the script using the CTRL + C or ALT + Q Keyboard combinations, and open your newly made `idlist.txt`, which, for example, if you put YFGA in the first prompt, the filenames would start with YFGA. You should see something similar to this:
+Kill the script using the CTRL + C or ALT + Q Keyboard combinations, and open your newly made `idlist.txt`, which should have UTTP (or some other troll group name if you set it to search for some other group like YFGA, for instance,) as the prefix, like "`UTTPidlist.txt`" or "`YFGAidlist.txt`" You should see something similar to this:
 
 ![Sample screenshot of an idlist.txt file](images/steps/01.png)
 
 Copy the file's contents.
 
-> ### Note: The other two files, which end in namelist.txt and cmblist.txt are generated to share with people online.  
-
+> ### Note: The other two files, which end in namelist.txt and cmblist.txt are for online distrobution
 ## Step 3
 
 Go to your [YouTube Studio](https://studio.youtube.com), go to settings in the bottom right corner, and go to Community. Scroll down until you see a text box like this:
