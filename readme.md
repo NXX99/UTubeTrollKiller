@@ -64,7 +64,7 @@ Kill the script using the CTRL + C or ALT + Q Keyboard combinations, and open yo
 
 Copy the file's contents.
 
-> ###Note: The other two files, which end in namelist.txt and cmblist.txt are generated to share with people online.  
+> ### Note: The other two files, which end in namelist.txt and cmblist.txt are generated to share with people online.  
 
 ## Step 3
 
