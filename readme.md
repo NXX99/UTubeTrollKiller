@@ -64,7 +64,7 @@ Kill the script using the CTRL + C or ALT + Q Keyboard combinations, and open yo
 
 Copy the file's contents.
 
-> ### Note: The other two files, which end in namelist.txt and cmblist.txt are for online distrobution
+> ### Note: The other two files, which end in namelist.txt and cmblist.txt are for online distribution
 ## Step 3
 
 Go to your [YouTube Studio](https://studio.youtube.com), go to settings in the bottom right corner, and go to Community. Scroll down until you see a text box like this:
